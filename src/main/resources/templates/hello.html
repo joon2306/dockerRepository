@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html
+xmlns:th="http://www.thymeleaf.org"
+>
+<head></head>
+<body>
+<form th:action="@{/hello/helloArjoon}" method="GET">
+NAME: <input type="text" name="name"/><br/>
+<input type="submit" value="submit" />
+</form>
+<span th:text="${hello}"/>
+
+</body>
+</html>
